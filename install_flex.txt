@@ -1,0 +1,1 @@
+Steps to Install Flex on Termux:\n1. pkg update && pkg upgrade\n2. pkg install flex\n3. flex lexical.l\n4. gcc lex.yy.c -o lexer\n5. ./lexer < input.txt
